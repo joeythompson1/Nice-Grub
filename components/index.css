@@ -1,0 +1,111 @@
+.main-page{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.image-div{
+    border: 1px solid black;
+    height: 300px;
+    background-image: url("/mocks/niceGrub/assets/simple-house-01.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-div .links{
+    margin-top: 25%;
+    margin-right: 25px;
+    float: right;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.btns{
+    border: 1px solid #009959; 
+    font-size: 15px;
+    color: #009959;
+    background-color: white;
+    margin-right: 25px;
+    padding: 5px;
+}
+
+.food-images{
+    margin-top: 50px;
+    width: 200px;
+    height: 220px;
+
+}
+
+.column {
+    float: left;
+    width: 20%;
+}
+
+.row {margin-right: -15vmax}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom-div #avacado{
+    width: 45%;
+    float: left;
+    margin-left: 35px;
+}
+
+.gright {
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 89.5%;
+    right: 0;
+    z-index: -1;
+}
+.gleft {
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 89.5%;
+    left: 0;
+    z-index: -1;
+}
+
+.avacado-text{
+    left: 50%;
+    text-align: left;
+    position: absolute;
+}
+
+#read-btn{
+    margin-left: 350px;
+    margin-top: 95px;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.food-name{
+    color: lightseagreen;
+}
+
+.caption{
+    color: lawngreen;
+}
